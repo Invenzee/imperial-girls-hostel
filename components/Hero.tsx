@@ -28,6 +28,10 @@ export default function Hero() {
       return;
     }
 
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      return;
+    }
+
     const { gsap, ScrollTrigger } = getGsap();
     const body = document.body;
 
@@ -126,41 +130,43 @@ export default function Hero() {
   }, []);
 
   return (
-    <div ref={rootRef} className="relative h-[280vh] w-full bg-primary">
+    <div
+      ref={rootRef}
+      className="relative w-full bg-white md:h-[280vh] md:bg-primary"
+    >
       <div
         ref={stageRef}
-        className="sticky top-0 h-svh w-full overflow-hidden bg-white"
+        className="flex w-full flex-col bg-white md:sticky md:top-0 md:h-svh md:overflow-hidden"
       >
         <div
           ref={heroContentRef}
-          className="absolute inset-x-0 top-[6.5rem] z-40 mx-auto flex w-full max-w-[1240px] flex-col items-center px-5 will-change-transform sm:top-[10rem] sm:px-8"
+          className="relative z-40 mx-auto flex w-full max-w-[1240px] shrink-0 flex-col items-center px-5 pt-[5.25rem] pb-5 will-change-transform md:absolute md:inset-x-0 md:top-[10rem] md:px-8 md:pt-0 md:pb-0"
         >
-          <p className="font-sans text-[11px] font-normal uppercase tracking-[0.35em] text-primary sm:text-lg sm:tracking-[0.4em]">
+          <p className="font-sans text-[10px] font-normal uppercase tracking-[0.35em] text-primary sm:text-lg sm:tracking-[0.4em]">
             Feeling at home
           </p>
 
-          <h1 className="font-heading mt-2 text-center text-[clamp(2.75rem,9vw,8.5rem)] font-medium leading-[0.88] tracking-[0.02em] text-transparent uppercase sm:mt-3 [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
+          <h1 className="font-heading mt-1.5 text-center text-[clamp(2.25rem,11vw,8.5rem)] font-medium leading-[0.88] tracking-[0.02em] text-transparent uppercase sm:mt-3 [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
             <span className="block">Sharing</span>
             <span className="block">Experiences</span>
           </h1>
 
-          <CircleButton href="#contact" variant="solid" className="mt-6 sm:mt-8">
+          <CircleButton href="#contact" variant="solid" className="mt-4 sm:mt-8">
             Book your stay
           </CircleButton>
         </div>
 
-        <div className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center">
+        <div className="relative z-20 px-4 pb-10 md:absolute md:inset-0 md:flex md:items-center md:justify-center md:px-0 md:pb-0">
           <div
             ref={imageWrapRef}
-            className="relative mt-16 overflow-hidden will-change-transform sm:mt-32 lg:mt-52"
-            style={{ width: END_W * 0.8, height: END_H * 0.8 }}
+            className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[1.5rem] md:mt-32 md:aspect-auto md:max-w-none lg:mt-52"
           >
             <Image
               src="/imperial-room-1.jpg"
               alt="Imperial Girls Hostel"
               fill
               priority
-              sizes="1240px"
+              sizes="(max-width: 768px) 100vw, 1240px"
               className="object-cover object-center"
             />
           </div>
@@ -168,7 +174,7 @@ export default function Hero() {
 
         <div
           ref={introRef}
-          className="pointer-events-none absolute inset-0 z-30 flex items-center justify-center px-6 opacity-0 sm:px-10"
+          className="pointer-events-none absolute inset-0 z-30 hidden items-center justify-center px-6 opacity-0 md:flex sm:px-10"
         >
           <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
             <div

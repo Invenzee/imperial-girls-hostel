@@ -8,39 +8,39 @@ const GAP = 32;
 const testimonials = [
   {
     quote:
-      "The cleanest hostel we have stayed in. Quiet rooms, friendly staff, and the perfect base for exploring Portimão and the beaches.",
-    name: "Emma R.",
-    place: "London, UK",
+      "The cleanest hostel we have stayed in. Quiet rooms, friendly staff, and the perfect base for studying and exploring Karachi.",
+    name: "Ayesha K.",
+    place: "Lahore, Pakistan",
   },
   {
     quote:
-      "Felt like home from the first night. Great kitchen, fast WiFi, and we met so many people in the shared spaces. Already planning to come back.",
-    name: "Lucas M.",
-    place: "Berlin, Germany",
+      "Felt like home from the first night. Fast WiFi, a proper breakfast, and we met so many girls in the shared spaces. Already planning to come back.",
+    name: "Fatima S.",
+    place: "Islamabad, Pakistan",
   },
   {
     quote:
-      "Spotless rooms, a proper breakfast, and staff who actually care. Best hostel experience we have had in the Algarve.",
-    name: "Sofia P.",
-    place: "Lisbon, Portugal",
+      "Spotless rooms, a warm welcome, and staff who actually care. Best hostel experience we have had in Karachi.",
+    name: "Zainab R.",
+    place: "Karachi, Pakistan",
   },
   {
     quote:
-      "Ideal for a few quiet days or a fun weekend. The twin room was comfortable, and downtown is right outside the door.",
-    name: "Noah K.",
-    place: "Amsterdam, Netherlands",
+      "Ideal for a few quiet days or a longer stay. The room was comfortable, and PECHS is right outside the door.",
+    name: "Hira M.",
+    place: "Multan, Pakistan",
   },
   {
     quote:
       "Warm welcome, helpful local tips, and everything you need on site. We felt looked after without it ever feeling crowded.",
-    name: "Mia L.",
-    place: "Dublin, Ireland",
+    name: "Sana A.",
+    place: "Faisalabad, Pakistan",
   },
   {
     quote:
-      "Simple, comfortable, and in a brilliant location. The common lounge made it easy to unwind after a day in the sun.",
-    name: "Jonas H.",
-    place: "Stockholm, Sweden",
+      "Simple, comfortable, and in a brilliant location. Easy to unwind after a day in the city — would recommend to any girl coming to Karachi.",
+    name: "Noor B.",
+    place: "Peshawar, Pakistan",
   },
 ] as const;
 

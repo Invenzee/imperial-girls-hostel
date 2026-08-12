@@ -11,13 +11,7 @@ const services = [
     title: "Breakfast",
     image: "/breakfast.jpg",
     description:
-      "Start the day with a fresh continental breakfast — coffee, fruit, breads, and local flavours.",
-  },
-  {
-    title: "Shared Kitchen",
-    image: "/kitechen.jpg",
-    description:
-      "A fully equipped kitchen open to all guests for cooking meals and sharing recipes with new friends.",
+      "Start the day with a fresh breakfast — tea, coffee, fruit, breads, and local flavours.",
   },
   {
     title: "Laundry",
@@ -29,7 +23,7 @@ const services = [
     title: "Air Conditioning",
     image: "/ac.jpg",
     description:
-      "Cool, comfortable rooms year-round — perfect for hot Algarve afternoons and warm summer nights.",
+      "Cool, comfortable rooms year-round — perfect for hot Karachi afternoons and warm summer nights.",
   },
   {
     title: "24h Reception",
@@ -41,13 +35,7 @@ const services = [
     title: "Luggage Storage",
     image: "/storage.jpg",
     description:
-      "Secure storage for your bags before check-in or after check-out while you explore Portimão.",
-  },
-  {
-    title: "Tours & Tips",
-    image: "/tour.jpg",
-    description:
-      "Local recommendations and easy booking help for beaches, boat trips, and Algarve day adventures.",
+      "Secure storage for your bags before check-in or after check-out while you explore Karachi.",
   },
 ] as const;
 
@@ -68,7 +56,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-          <div data-reveal-stagger="items" className="grid grid-cols-2 gap-x-5 gap-y-10 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-14">
+          <div data-reveal-stagger="items" className="grid grid-cols-2 gap-x-5 gap-y-10 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-14">
           {services.map((service) => (
             <article key={service.title} className="flex flex-col">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[1.25rem] sm:rounded-[1.5rem]">
