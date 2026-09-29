@@ -64,7 +64,7 @@ export default function AboutSection() {
         {/* A home for girls + tall image */}
         <div className="grid items-end gap-10 lg:grid-cols-2 lg:gap-16 xl:gap-24">
           <div data-reveal="left" className="max-w-lg pb-2">
-            <h2 className="font-heading text-4xl font-medium uppercase leading-[1.05] tracking-[0.04em] sm:text-5xl lg:text-[3.5rem]">
+            <h2 className="font-heading text-2xl font-semibold uppercase leading-[1.1] tracking-[0.04em] sm:text-3xl lg:text-[2rem]">
               A home for girls
               <br />
               in PECHS, Karachi
