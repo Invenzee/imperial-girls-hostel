@@ -21,8 +21,9 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Imperial Girls Hostel",
-  description: "A girls hostel in PECHS, Karachi",
+  title: "Girls Hostel in PECHS, Karachi | Imperial Girls Hostel",
+  description:
+    "Looking for a girls hostel near you? Imperial Girls Hostel in PECHS, Karachi offers safe private and shared rooms near Shahrah-e-Faisal and Tariq Road.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
