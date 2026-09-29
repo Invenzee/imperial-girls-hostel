@@ -5,37 +5,37 @@ const services = [
     title: "Free WiFi",
     image: "/wifi.jpg",
     description:
-      "Fast, reliable internet throughout the hostel so you can work, stream, or stay in touch with ease.",
+      "Fast, reliable internet throughout the hostel for work, study or staying in touch.",
   },
   {
     title: "Breakfast",
     image: "/breakfast.jpg",
     description:
-      "Start the day with a fresh breakfast — tea, coffee, fruit, breads, and local flavours.",
+      "Start the day with tea, coffee, fruit, breads and local flavours.",
   },
   {
     title: "Laundry",
     image: "/laundary.jpg",
     description:
-      "On-site washers and dryers so you can travel light and keep your clothes fresh during your stay.",
+      "On-site washers and dryers, so you can travel light and keep your clothes fresh.",
   },
   {
     title: "Air Conditioning",
     image: "/ac.jpg",
     description:
-      "Cool, comfortable rooms year-round — perfect for hot Karachi afternoons and warm summer nights.",
+      "Cool, comfortable rooms all year, perfect for hot Karachi afternoons.",
   },
   {
     title: "24h Reception",
     image: "/reception.jpg",
     description:
-      "Friendly staff around the clock for check-in, local tips, and anything you need during your stay.",
+      "Friendly staff around the clock for check-in, local tips and anything you need.",
   },
   {
     title: "Luggage Storage",
     image: "/storage.jpg",
     description:
-      "Secure storage for your bags before check-in or after check-out while you explore Karachi.",
+      "Secure storage for your bags before check-in or after check-out.",
   },
 ] as const;
 
@@ -49,10 +49,13 @@ export default function ServicesSection() {
         <div data-reveal="up" className="mb-12 max-w-2xl sm:mb-16">
           <h2 className="font-heading text-[clamp(2.5rem,8vw,5.5rem)] font-medium uppercase leading-[0.9] tracking-[0.02em] text-transparent [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
             Services
+            <span className="mt-3 block text-xl font-semibold leading-tight tracking-[0.04em] text-primary [-webkit-text-stroke:0] sm:mt-4 sm:text-2xl lg:text-3xl">
+              at our hostel
+            </span>
           </h2>
           <p className="mt-5 max-w-md font-sans text-sm leading-relaxed text-primary/55 sm:mt-6 sm:text-[15px] sm:leading-[1.7]">
-            Everything you need for a comfortable stay — from daily essentials
-            to shared spaces made for meeting people.
+            Everything you need for a comfortable stay, from daily essentials
+            to shared spaces where you can meet other girls.
           </p>
         </div>
 

@@ -8,6 +8,8 @@ const navLinks = [
   { label: "Rooms", href: "#rooms" },
   { label: "Gallery", href: "#gallery" },
   { label: "Services", href: "#services" },
+  { label: "Location", href: "#location" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ] as const;
 

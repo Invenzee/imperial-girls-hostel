@@ -7,6 +7,8 @@ import FeaturesGallery from "@/components/FeaturesGallery";
 import MarqueeSection from "@/components/MarqueeSection";
 import ServicesSection from "@/components/ServicesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import LocationSection from "@/components/LocationSection";
+import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import MapSection from "@/components/MapSection";
 import Footer from "@/components/Footer";
@@ -28,6 +30,8 @@ export default function Home() {
         <MarqueeSection />
         <ServicesSection />
         <TestimonialsSection />
+        <LocationSection />
+        <FaqSection />
         <ContactSection />
         <MapSection />
       </main>

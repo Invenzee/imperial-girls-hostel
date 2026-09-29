@@ -10,11 +10,15 @@ export default function ContactSection() {
             <div data-reveal="left">
               <h2 className="font-heading text-[clamp(2.5rem,8vw,5.5rem)] font-medium uppercase leading-[0.9] tracking-[0.02em] text-transparent [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
                 Contact
+                <span className="mt-3 block text-xl font-semibold leading-tight tracking-[0.04em] text-primary [-webkit-text-stroke:0] sm:mt-4 sm:text-2xl lg:text-3xl">
+                  Imperial Girls Hostel
+                </span>
               </h2>
 
               <p className="mt-6 max-w-md font-sans text-sm leading-relaxed text-primary/55 sm:mt-8 sm:text-[15px] sm:leading-[1.7]">
-                Questions about rooms, dates, or your stay? Write to us — we are
-                happy to help you plan the days ahead.
+                Questions about rooms, dates or your stay? Write to us. We are
+                happy to help you plan your stay at our girls hostel in PECHS,
+                Karachi.
               </p>
 
               <dl className="mt-10 space-y-6 sm:mt-12">

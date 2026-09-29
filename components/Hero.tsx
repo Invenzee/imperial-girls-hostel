@@ -142,13 +142,13 @@ export default function Hero() {
           ref={heroContentRef}
           className="relative z-40 mx-auto flex w-full max-w-[1240px] shrink-0 flex-col items-center px-5 pt-[5.25rem] pb-5 will-change-transform md:absolute md:inset-x-0 md:top-[10rem] md:px-8 md:pt-0 md:pb-0"
         >
-          <p className="font-sans text-[10px] font-normal uppercase tracking-[0.35em] text-primary sm:text-lg sm:tracking-[0.4em]">
-            Feeling at home
+          <p className="max-w-[20rem] text-center font-sans text-[10px] font-normal uppercase leading-relaxed tracking-[0.3em] text-primary sm:max-w-none sm:text-sm sm:tracking-[0.35em] lg:text-lg lg:tracking-[0.2em]">
+            Safe &amp; comfortable girls hostel in PECHS, Karachi
           </p>
 
           <h1 className="font-heading mt-1.5 text-center text-[clamp(2.25rem,11vw,8.5rem)] font-medium leading-[0.88] tracking-[0.02em] text-transparent uppercase sm:mt-3 [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
-            <span className="block">Sharing</span>
-            <span className="block">Experiences</span>
+            <span className="block">Girls Hostel</span>
+            <span className="block">in Karachi</span>
           </h1>
 
           <CircleButton href="#contact" variant="solid" className="mt-4 sm:mt-8">
@@ -172,6 +172,13 @@ export default function Hero() {
           </div>
         </div>
 
+        <p className="mx-auto max-w-md px-5 pb-12 text-center font-sans text-sm leading-relaxed text-primary/70 md:hidden">
+          We offer private and shared rooms for girls and women who want a
+          quiet, comfortable stay in Karachi. Whether you are a student, a
+          working woman, or visiting the city, Imperial Girls Hostel is a nearby
+          girls hostel in PECHS with everything you need close by.
+        </p>
+
         <div
           ref={introRef}
           className="pointer-events-none absolute inset-0 z-30 hidden items-center justify-center px-6 opacity-0 md:flex sm:px-10"
@@ -182,11 +189,10 @@ export default function Hero() {
               aria-hidden="true"
             />
             <p className="font-sans text-base leading-relaxed text-white sm:text-lg sm:leading-[1.7] md:text-xl lg:text-[1.35rem] lg:leading-[1.75]">
-              We provide private and shared rooms for those who
-              <br className="hidden sm:block" />{" "}
-              want to spend some quiet or fun days in Karachi.
-              <br className="hidden sm:block" /> Always with the company of the
-              sun!
+              We offer private and shared rooms for girls and women who want a
+              quiet, comfortable stay in Karachi. Whether you are a student, a
+              working woman, or visiting the city, Imperial Girls Hostel is a
+              nearby girls hostel in PECHS with everything you need close by.
             </p>
           </div>
         </div>

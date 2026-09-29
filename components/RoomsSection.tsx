@@ -12,42 +12,42 @@ const rooms = [
     title: "Studio",
     image: "/imperial-room-1.jpg",
     description:
-      "Located at Imperial Girls Hostel, these rooms are approximately 20m2 and include a king size bed, sofa bed, fully equipped kitchenette, bathroom with shower, window, air conditioning, TV and free WiFi.",
+      "About 20m² with a king-size bed, sofa bed, fully equipped kitchenette, attached bathroom with shower, window, air conditioning, TV and free WiFi. A spacious private room for longer stays in PECHS.",
   },
   {
     sleeps: "Sleeps 2",
     title: "Double Room",
     image: "/imperial-room-2.jpg",
     description:
-      "Located at Imperial Girls Hostel, these rooms are approximately 11m2 and include a queen size bed, bathroom with shower, window, air conditioning, carpeted floors, TV and free WiFi.",
+      "About 11m² with a queen-size bed, attached shower bathroom, window, air conditioning, carpeted floors, TV and free WiFi. A comfortable private room for one or two guests.",
   },
   {
     sleeps: "Sleeps 2",
     title: "Twin Room 1",
     image: "/imperial-room-3.jpg",
     description:
-      "Located at Imperial Girls Hostel, these rooms are approximately 11m2 and include a queen size bed, bathroom with shower, window, air conditioning, carpeted floors, TV and free WiFi.",
+      "About 11m² with a queen-size bed, attached shower bathroom, window, air conditioning, carpeted floors, TV and free WiFi.",
   },
   {
     sleeps: "Sleeps 2",
     title: "Twin Room 2",
     image: "/imperial-room-1.jpg",
     description:
-      "A bright twin with workspace, air conditioning, TV and free WiFi — made for a quiet stay in PECHS, Karachi.",
+      "A bright twin room with a workspace, air conditioning, TV and free WiFi. Quiet and suited to study or remote work in PECHS, Karachi.",
   },
   {
     sleeps: "Sleeps 2",
     title: "Private Double",
     image: "/imperial-room-2.jpg",
     description:
-      "A compact private double with a desk, warm lighting and all the essentials for a comfortable night in Karachi.",
+      "A compact private double with a desk, warm lighting and all the essentials for a restful stay at our private girls hostel in Karachi.",
   },
   {
     sleeps: "Sleeps 4",
     title: "Family Room",
     image: "/imperial-room-3.jpg",
     description:
-      "A larger shared room for friends, with air conditioning, TV and free WiFi in the heart of PECHS, Karachi.",
+      "A larger shared room for friends or sisters, with air conditioning, TV and free WiFi, in the heart of PECHS.",
   },
 ] as const;
 
@@ -111,7 +111,16 @@ export default function RoomsSection() {
             <div className="relative">
               <h2 className="font-heading text-[clamp(2.5rem,8vw,5.5rem)] font-medium uppercase leading-[0.9] tracking-[0.02em] text-transparent [-webkit-text-stroke:1.5px_#093a39] sm:[-webkit-text-stroke:2px_#093a39]">
                 Rooms &amp; Dorms
+                <span className="mt-3 block text-xl font-semibold leading-tight tracking-[0.04em] text-primary [-webkit-text-stroke:0] sm:mt-4 sm:text-2xl lg:text-3xl">
+                  at our Karachi girls hostel
+                </span>
               </h2>
+
+              <p className="mt-5 max-w-md font-sans text-sm leading-relaxed text-primary/55 sm:mt-6 sm:text-[15px] sm:leading-[1.7]">
+                Choose from private and shared rooms at our women&apos;s hostel
+                in PECHS, Karachi. Every room has air conditioning, TV and free
+                WiFi.
+              </p>
 
               <div className="relative mt-5 inline-flex sm:mt-6">
                 <CircleButton href="#contact" variant="solid" className="py-3 sm:py-3.5">

@@ -103,7 +103,13 @@ export default function TestimonialsSection() {
           <div data-reveal="up" className="mb-12 flex items-start justify-between gap-6 sm:mb-16">
             <div className="relative">
               <h2 className="font-heading text-[clamp(2.5rem,8vw,5.5rem)] font-medium uppercase leading-[0.9] tracking-[0.02em] text-transparent [-webkit-text-stroke:1.5px_#fff] sm:[-webkit-text-stroke:2px_#fff]">
+                <span className="mb-3 block text-xl font-semibold leading-tight tracking-[0.04em] text-white [-webkit-text-stroke:0] sm:mb-4 sm:text-2xl lg:text-3xl">
+                  What our
+                </span>
                 Guests
+                <span className="mt-3 block text-xl font-semibold leading-tight tracking-[0.04em] text-white [-webkit-text-stroke:0] sm:mt-4 sm:text-2xl lg:text-3xl">
+                  say about our girls hostel in Karachi
+                </span>
               </h2>
 
               <div className="relative mt-5 inline-flex sm:mt-6">
