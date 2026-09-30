@@ -24,9 +24,6 @@ export const metadata: Metadata = {
   title: "Girls Hostel in PECHS, Karachi | Imperial Girls Hostel",
   description:
     "Looking for a girls hostel near you? Imperial Girls Hostel in PECHS, Karachi offers safe private and shared rooms near Shahrah-e-Faisal and Tariq Road.",
-  verification: {
-    google: "ZRTX8uxbcy_1bl8HZIOSMf2WsyD49lBbVGqcLFIWCDI",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -35,6 +32,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${barlowCondensed.variable} ${workSans.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
+      <head>
+      <meta name="google-site-verification" content="ZRTX8uxbcy_1bl8HZIOSMf2WsyD49lBbVGqcLFIWCDI" />
+        </head>
       <body className="min-h-full flex flex-col bg-white text-primary font-sans">
         {children}
       </body>
